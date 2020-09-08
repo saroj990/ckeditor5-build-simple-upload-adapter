@@ -24,7 +24,6 @@ import Link from '@ckeditor/ckeditor5-link/src/link';
 import List from '@ckeditor/ckeditor5-list/src/list';
 
 import Paragraph from '@ckeditor/ckeditor5-paragraph/src/paragraph';
-import MediaEmbed from '@ckeditor/ckeditor5-media-embed/src/mediaembed';
 import PasteFromOffice from '@ckeditor/ckeditor5-paste-from-office/src/pastefromoffice';
 import Table from '@ckeditor/ckeditor5-table/src/table';
 import TableToolbar from '@ckeditor/ckeditor5-table/src/tabletoolbar';
@@ -55,7 +54,6 @@ ClassicEditor.builtinPlugins = [
 	Indent,
 	Link,
 	List,
-	MediaEmbed,
 	Paragraph,
 	PasteFromOffice,
 	Table,
@@ -83,7 +81,6 @@ ClassicEditor.defaultConfig = {
 			'imageUpload',
 			'blockQuote',
 			'insertTable',
-			'mediaEmbed',
 			'undo',
 			'redo',
 			'removeFormat'
