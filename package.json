@@ -1,6 +1,6 @@
 {
   "name": "ckeditor5-build-simple-upload-adapter",
-  "version": "22.0.0",
+  "version": "1.0.0",
   "description": "The classic editor build of CKEditor 5 with simple upload adapter support",
   "keywords": [
     "ckeditor5-build",
