@@ -1,7 +1,7 @@
 {
-  "name": "@ckeditor/ckeditor5-build-classic",
+  "name": "ckeditor5-build-simple-upload-adapter",
   "version": "22.0.0",
-  "description": "The classic editor build of CKEditor 5 – the best browser-based rich text editor.",
+  "description": "The classic editor build of CKEditor 5 with simple upload adapter support",
   "keywords": [
     "ckeditor5-build",
     "ckeditor",
@@ -57,14 +57,13 @@
     "node": ">=12.0.0",
     "npm": ">=5.7.1"
   },
-  "author": "CKSource (http://cksource.com/)",
+  "author": "Saroj Sasamal",
   "license": "GPL-2.0-or-later",
   "homepage": "https://ckeditor.com/ckeditor-5",
   "bugs": "https://github.com/ckeditor/ckeditor5/issues",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ckeditor/ckeditor5.git",
-    "directory": "packages/ckeditor5-build-classic"
+    "url": "git+https://github.com/saroj990/ckeditor5-build-simple-upload-adapter",
   },
   "scripts": {
     "build": "webpack --mode production",
